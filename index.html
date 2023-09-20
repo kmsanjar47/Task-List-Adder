@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+      integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h4>Task List</h4>
+      <form id="input-form">
+        <input
+          type="text"
+          name="input-text"
+          id="input-text"
+          placeholder="Enter Task"
+        />
+        <input type="submit" value="Add Task" />
+      </form>
+      <h4>Tasks</h4>
+      <input
+        type="text"
+        name="filter-tasks"
+        id="filter-tasks"
+        placeholder="Filter by name"
+      />
+      <ul id="task-list-items"></ul>
+      <button class="clear-tasks">Clear Tasks</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
